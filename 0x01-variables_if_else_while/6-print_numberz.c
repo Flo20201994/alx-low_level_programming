@@ -9,8 +9,8 @@ int main(void)
 {
 	int d;
 
-	for (d = '0'; d = '9'; d++)
-	purchar(d);
-	purchar("\n");
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
+	purchar('\n');
 	return (0);
 }
