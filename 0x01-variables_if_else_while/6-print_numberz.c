@@ -11,6 +11,6 @@ int main(void)
 
 	for (d = '0'; d = '9'; d++)
 	purchar(d);
-	purchar('\n');
+	purchar("\n");
 	return (0);
 }
