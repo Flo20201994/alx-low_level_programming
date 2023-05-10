@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _strspn - Entry point
+/**
+ *  _strspn - Entry point
  * @s: input
  * @accept: input
  * Return: Always 0 (Success)
@@ -22,9 +23,10 @@ unsigned int _strspn(char *s, char *accept)
 			check = 1;
 		}
 	}
-	if (check == 0)
-	       return (value);
-	}
-return (value);
 
+	if (check == 0)
+		return (value);
+	}
+
+	return (value);
 }
